@@ -1,0 +1,36 @@
+{
+  "list": [
+    {
+      "title": "Makan",
+      "done": false,
+      "id": 1
+    },
+    {
+      "title": "Minum Air",
+      "done": false,
+      "id": 2
+    },
+    {
+      "title": "Mandi",
+      "done": false,
+      "id": 4
+    }
+  ],
+  "users": [
+    {
+      "email": "juan.frederick58@gmail.com",
+      "password": "$2a$10$RS0.TZfumvCoH9EuZKpIpeMkLEvWIExP7dFoKYaexpQQyfeBYIZqS",
+      "id": 1
+    },
+    {
+      "email": "juan.frederick58@uvers.ac.id",
+      "password": "$2a$10$xft3oiCw/ozvSJy9zLodgu5LAqA.w7LEJdMDCfNCLiSV.x9TXK1v2",
+      "id": 2
+    },
+    {
+      "email": "asd@asd.com",
+      "password": "$2a$10$71YCQ.R/T0nPsRHPo7XUTOzLiJFHXWihGytjDCS.Pli5bzDzYMtUK",
+      "id": 3
+    }
+  ]
+}

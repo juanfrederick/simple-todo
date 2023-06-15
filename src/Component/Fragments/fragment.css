@@ -1,0 +1,160 @@
+.edit-container {
+  position: fixed;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.199);
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit-back {
+  width: 50%;
+  background-color: white;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.exit-edit-button {
+  font-size: 1.7rem;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  color: #f67e7d;
+  position: absolute;
+  font-weight: bolder;
+  top: -1rem;
+  right: -1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 90px;
+  border: 3px solid #f67e7d;
+  transition: 0.5s;
+}
+
+.exit-edit-button:hover {
+  background-color: #f67e7d;
+  color: white;
+  border: 3px solid #f67e7d;
+}
+
+/* Login Fragment */
+
+.login-fragment {
+  width: 50%;
+  height: 50vh;
+  margin: auto;
+  border: blue solid 2px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.login-fragment h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.login-fragment input {
+  font-size: 1rem;
+  height: 1.8rem;
+  padding: 5px;
+  border: 2px solid blue;
+  border-radius: 5px;
+}
+
+.login-fragment input:focus {
+  outline: solid rgb(57, 57, 255) 1px;
+}
+
+.login-fragment label {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.universal-btn {
+  font-size: 1rem;
+  padding: 4px 9px;
+  background-color: white;
+  border-radius: 5px;
+  border: solid blue 2px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.universal-btn:hover {
+  border: solid white 2px;
+  background-color: #1b98e0;
+  color: white;
+}
+
+.login-fragment .invalid {
+  color: red;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: bold;
+  color: blue;
+}
+
+.pos-end {
+  position: relative;
+  left: 60vw;
+}
+
+/* Responsive */
+@media screen and (max-width: 950px) {
+  .edit-back {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .edit-back {
+    width: 80%;
+  }
+
+  .login-fragment {
+    width: 70%;
+  }
+
+  .pos-end {
+    left: 70vw;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .edit-back {
+    width: 90%;
+    height: 250px;
+  }
+
+  .pos-end {
+    left: 80vw;
+  }
+}
+
+@media screen and (max-height: 615px) {
+  .login-fragment {
+    height: 70vh;
+  }
+}
+
+@media screen and (max-height: 430px) {
+  .login-fragment {
+    width: 80%;
+    height: 85vh;
+  }
+}

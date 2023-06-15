@@ -1,0 +1,13 @@
+.container {
+  width: 100vw;
+  max-width: 70vmax;
+  min-height: 100vh;
+  margin: auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+}
